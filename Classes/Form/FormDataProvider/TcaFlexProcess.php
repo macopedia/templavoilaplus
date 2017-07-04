@@ -164,7 +164,7 @@ class TcaFlexProcess implements FormDataProviderInterface
 
         $modifiedDataStructure['meta']['langDisable'] = isset($modifiedDataStructure['meta']['langDisable'])
             ? (bool)$modifiedDataStructure['meta']['langDisable']
-            : false;
+            : true;
         $modifiedDataStructure['meta']['langChildren'] = isset($modifiedDataStructure['meta']['langChildren'])
             ? (bool)$modifiedDataStructure['meta']['langChildren']
             : false;
